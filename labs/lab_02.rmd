@@ -47,7 +47,7 @@ west_virginia_ppp <- read_rds("lab_02.rds")
 ## Answer questions
 
 **Q1** Create a new column that divides the loan amounts into multiple options: under_10k, 10k_50k, 50k_100k, 100k_500k, 500k_1m, 1m_plus. How many loans are in each group?
-**A1** 9,407; 15,403; 3,999; 4,153; 540; 333 
+**A1** 9,407; 15,403; 3,999;  4,153; 540; 333 
 
 ```{r}
 # Write the code to produce your answer here
