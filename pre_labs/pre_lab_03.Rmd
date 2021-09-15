@@ -45,7 +45,7 @@ ppp_maryland_loans <- read_csv("ppp_loans_md.csv.zip", guess_max=10)
 
 ### Task 3: Check for problems on load
 **Task** Check for problems that occurred when loading the ppp loan data for Maryland by running the following code.  How many problems were there, as shown by the number of rows in the output table showing errors? Answer below.
-**Answer** 87,927 problems 
+**Answer** 87,927 problems
 
 ```{r}
 
