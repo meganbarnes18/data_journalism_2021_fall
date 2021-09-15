@@ -146,7 +146,7 @@ library(lubridate)
 
 ### Task 13: Look for date gaps in data
 **Task** Run the following codeblock to create a new column called "month_year_approved" that extracts the month and year from the "date_approved" column.  Group by the new "month_year_approved" column, count, and sort by "month_year_approved". How many loans are there in the data for October 2020? Answer below.
-**Answer**
+**Answer** There are no laons in the data for October 2020.
 ```{r}
 ppp_maryland_loans %>%
   mutate(month_year_approved = floor_date(date_approved, "month")) %>%
@@ -159,7 +159,7 @@ ppp_maryland_loans %>%
 
 ### Task 14: Check for suspicious outliers
 **Task** Run the following codeblock to find the largest and smallest loans in the data, by using summarise() without grouping. How much is the largest loan for? How much is the smallest loan for? Are either of these suspicious to you? Why or why not? Answer below.
-**Answer**
+**Answer** $10,000,000	is the largest loan and $6 is the smallest. This is a little weird because a $6 loan seems very small. 
 ```{r}
 
 ppp_maryland_loans %>%
@@ -170,7 +170,7 @@ ppp_maryland_loans %>%
 
 ### Task 15: Look at smallest loans
 **Task** Run the following codeblock to examine all loans under $100. How many are there? Answer below.
-**Answer**
+**Answer** There are 2.
 ```{r}
 
 ppp_maryland_loans %>%
@@ -179,7 +179,7 @@ ppp_maryland_loans %>%
 
 ### Task 16: Look for internal consistency
 **Task** Run the following codeblock to examine all loans under $100 and look at whether the various fields with amounts align. Do they? Answer below.
-**Answer**
+**Answer** Yes
 
 ```{r}
 
