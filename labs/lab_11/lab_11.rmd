@@ -148,7 +148,7 @@ ggplot() +
 * What specific industry are they in, based on their 6-digit NAICS code? Look them up on the web. What services do they provide?
 * How many jobs did they save, according to the data?
 * What's your hypothesis for why a company in their specific industry would need to seek a PPP loan during the pandemic?
-**A4.** The company that accounts for the biggest chunk of the total loan amount is Hall Drilling, LLC. Its naics code is 213111, meaning it specializes in Drilling Oil and Gas Wells specifically. Its services include: trucking, drilling, production installation, construction, and roustabout services. According to the data, the company saved 387 jobs. My theory for why this specific company would need PPP loans is because not a lot of oil and gas needed to be drilled due to the lack of people going places. Gas prices were at a low during the height of the pandemic because the demand was so low. 
+**A4.** The company that accounts for the biggest chunk of the total loan amount is Hall Drilling, LLC. Its naics code is 213111, meaning it specializes in Drilling Oil and Gas Wells specifically. Its services include: trucking, drilling, production installation, construction, and roustabout services. According to the data, the company saved 387 jobs. My theory for why this specific company would need PPP loans is that gas prices were at a low during the height of the pandemic, so demand was low and their services weren't needed. 
 ```{r}
 #dataset for ritchie loans 
 ritchie_loans <- wv_ppp_loans %>%
