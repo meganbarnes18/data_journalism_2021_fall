@@ -90,4 +90,5 @@ west_virginia_ppp %>%
   group_by(Month) %>%
   summarise(total = n()) %>%
   arrange(desc(total))
+
 ```
